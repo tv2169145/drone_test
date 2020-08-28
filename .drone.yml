@@ -9,4 +9,3 @@ steps:
         from_secret: username
     commands:
       - go build
-      - go test
