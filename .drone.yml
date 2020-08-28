@@ -3,7 +3,7 @@ name: default
 
 steps:
   - name: backend
-    image: golang:1.14-alpine
+    image: golang:1.13-alpine
     envioment:
       USERNAME:
         from_secret: username
