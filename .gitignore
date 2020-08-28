@@ -12,6 +12,8 @@
 *.out
 .idea
 .DS_Store
+.env
+database.sqlite
 
 
 # Dependency directories (remove the comment below to include it)
