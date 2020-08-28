@@ -1,9 +1,12 @@
 package main
 
 import (
-	"github.com/tv2169145/drone_test/utils"
 	"io"
 	"net/http"
+)
+
+const (
+	name = "jimmy"
 )
 
 func main() {
@@ -13,7 +16,11 @@ func main() {
 
 func index(w http.ResponseWriter, r *http.Request) {
 
-	io.WriteString(w, utils.GetHelloWorld())
+	io.WriteString(w, GetHelloWorld())
+}
+
+func GetHelloWorld() string {
+	return "hello " + name
 }
 
 
