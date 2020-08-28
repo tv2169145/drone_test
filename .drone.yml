@@ -10,4 +10,3 @@ steps:
     commands:
       - go build
       - go test
-      - echo "123"
