@@ -8,4 +8,5 @@ steps:
       USERNAME:
         from_secret: username
     commands:
+      - go test
       - go build
