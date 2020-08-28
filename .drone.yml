@@ -7,6 +7,5 @@ steps:
     envioment:
     commands:
       - export CGO_ENABLED=0
-      - export GO111MODULE=on
       - go test
       - go build
