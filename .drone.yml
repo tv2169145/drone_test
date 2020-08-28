@@ -5,10 +5,8 @@ steps:
   - name: backend
     image: golang:1.13-alpine
     envioment:
-      CGO_ENABLED: 0
-      GO111MODULE: on
-      USERNAME:
-        from_secret: username
     commands:
+      - export CGO_ENABLED=0
+      - export GO111MODULE=on
       - go test
       - go build
