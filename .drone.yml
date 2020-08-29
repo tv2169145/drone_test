@@ -8,4 +8,3 @@ steps:
     commands:
       - export CGO_ENABLED=0
       - go test
-      - go build
