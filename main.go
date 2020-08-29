@@ -20,7 +20,7 @@ func index(w http.ResponseWriter, r *http.Request) {
 }
 
 func GetHelloWorld() string {
-	return "hello " + name + " 1234"
+	return "hello " + name + " 123"
 }
 
 
